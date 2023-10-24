@@ -1,0 +1,668 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    -webkit-text-size-adjust: 100%;
+}
+.navbar{
+    background-color: #0025ff;
+    position: sticky;
+    top: 0;
+}
+@font-face {
+    font-family: sofia pro;
+    src: url(./Assets/sofiapro-light.otf);
+}
+.navbar a{
+    color: white;
+    font-family: sofia pro ;
+    font-weight: 600;
+    margin: 10px 20px;}
+.dropdown-menu a{
+        color: black;
+    }
+
+.nav-btn{
+    background-color: #0025ff;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 15rem;
+    height: 2.5rem;
+    font-family: sofia pro;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pepsi-btn{
+margin-right: 30px;
+}
+.nav-btn:hover{
+    background-color: white;
+    color: #0025ff;
+    font-weight: 900;
+    transform: rotate(20px);
+    transition: 1s;
+    cursor: pointer;
+}
+.main{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+}
+.main1{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.con-main1{
+    padding: 20px;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.head1{
+    font-size: 5.5rem; font-family: PepsiOwners-Extended; font-weight: 600;
+}
+.head2{
+    text-align: center; font-size: 2.5rem; font-family: PepsiOwners-Extended; font-weight: 600;
+}
+.main1-btn{
+    border-radius: 50px;
+    padding: 8px 20px;
+    font-family: sans-serif;
+    background-color: #0025ff;
+    color: white;
+    font-size: 3rem;
+    margin-top: 20px;
+    
+}
+.main1-btn:hover{
+    background-color: white;
+    color: #0025ff;
+    font-weight: 600;
+    transform: rotate(20px);
+    transition: 1.5s;
+    cursor: pointer;
+}
+.main2{
+    width: 100%;
+    height: 50%;
+    background-color: black;}
+
+.main3{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.main3-con1 h1{
+    color: white;
+    font-size: 4rem; 
+    font-family: PepsiOwners-Extended; 
+    font-weight: 600;    margin-bottom: -20px;
+}
+.main3-con2 h3{
+    color: #0025ff;
+    font-size: 3.5rem; 
+    font-family: PepsiOwners-Extended; 
+    font-weight: 600;
+    margin-bottom: -10px;
+}
+.main3-con3 h1{
+    color: white;
+    font-size: 5.2rem; 
+    font-family: PepsiOwners-Extended; 
+    font-weight: 600;
+}
+.md-container{
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+.contant{
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+.main4{
+    width: 100%;
+    background-color: black;
+}
+.main5{
+    width: 100%;
+    height: 50%;
+    background-color: black;
+    background-image: url('./Assets/img3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+
+}
+.main6 img{
+    width: 50%;
+}
+.main6{
+    width: 100%;    
+    padding-bottom: 50px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main7{
+    width: 100%;
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom:50px;
+    text-align: center;
+}
+.main8{
+    color: #0025ff;
+    background-color: white;
+    border: 2px;
+    border-radius: 50px;
+    font-family: PepsiOwners-Extended;
+    font-weight: 600;
+    padding: 8px;
+    cursor: pointer;
+
+    
+}
+.main8 h1{
+    font-size: 4rem;
+    font-weight: 600;
+    text-align: center;
+}
+.main9 h1{
+    font-size: 4rem;
+    font-weight: 600;
+    color: white;
+}
+.main10{
+    color: white;
+}
+.main10 h4{
+    font-size: 2.2rem;
+}
+.con-main10{
+    background-color: white;
+    color: #0025ff;
+    border-radius: 40px;
+    font-size: 3rem;
+    padding: .1em .5em;
+    font-family:PepsiOwners-Extended ;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+}
+.main11 p {
+    color: white;
+    font-size: 1.2rem;
+}
+.main12 h6{
+    color: white;
+    border-radius: 30px;
+    border: 2px solid white;
+    padding: 5px 10px;
+    font-size: 1.5rem;
+}
+.main12 h6:hover{
+    background-color: white;
+    color: #0025ff;
+    font-weight: 600;
+    transform: rotate(20px);
+    transition: 1.5s;
+    cursor: pointer;
+}
+.main13{
+    width: 100%;
+    background-color: black;
+
+}
+.main14 h1{
+    color: #0025ff;
+    font-size: 2.5rem;
+    font-family: 'PepsiOwners-Extended';
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.main15{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    border: 2px groove #0025ff;
+
+}
+.main15 img:hover{
+    cursor: pointer;
+    transform: rotate(2deg);
+    transition: 1s;
+    filter: blur(2px);
+}
+.footer1{
+    width: 100%;
+    background-color: #0025ff;
+}
+.footer2{
+    padding-top: 60px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.footer2 a{
+    color: white;
+    text-decoration: none;
+}
+.footer3 i{
+    margin: 10px;
+}
+/* Second file css */
+.banner1{
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner1 h1{
+    font-size: 5rem;
+    font-weight: 600;
+    color: white;
+    font-family: "PepsiOwners-Extended";
+    word-spacing: 8px;
+}
+.banner1 h2{
+    width: 100%;
+    font-size: 5rem;
+    color: white;
+    font-family: "PepsiOwners-Extended";
+    word-spacing: -8px;
+}
+.banner1 h3{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #0025ff;
+    font-family: "PepsiOwners-Extended";
+}
+.banner2 h1{
+    color: white;
+    font-size: 2.5rem; 
+    font-family: PepsiOwners-Extended; 
+    font-weight: 600;
+}
+.main-gallery{
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.hero{
+    width: 100%;
+    height: 100px;
+    background-color: #0025ff;
+
+}
+.main-hero{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-end;
+}
+.hero1 img{
+margin-top: 10px;
+}
+.hero2 ul li{
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    font-size: 1rem;
+    margin: 15px;
+    cursor: pointer;
+}
+.hero1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero3{
+    width: 100%;
+    background-color: black;
+    background-image: url("./Assets/img3.jpg");
+    background-size: cover;
+}
+.hero4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero5{
+    width: 100%;
+
+}
+.hero5 h1{
+    color: white;
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 2px;
+}
+.hero5 h5{
+    color: white;
+    padding-top: 80px;
+    font-size: 1.6rem;
+    text-align: center;
+}
+.hero6{
+    width: 100%;
+    background-color: hsla(0,0%,100%,.9);;
+    border-radius: 10px;
+    margin: 40px;
+    padding: 30px;
+}
+.hero6 p{
+    text-decoration: underline;
+}
+.mid-down{
+    width: 100%;
+    background-color: white;
+}
+.down1{
+    padding-top: 60px;
+}
+.down2{
+    display: flex;
+    margin: 50px 0px 80px;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.down3{
+    width: 40%;
+    background-image: url(./Assets/down1.jpg);
+    background-size: cover;
+    padding: 1.3em;
+    color: aliceblue;
+}
+.down3 h6{
+    padding: 10px 18px;
+    background-color: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 1.2rem;
+    width: 8em;
+
+
+}
+.down4{
+    width: 40%;
+    background-image: url(./Assets/down2.jpg);
+    background-size: cover ;
+    padding: 1em;
+    color: aliceblue;
+}
+.down4 h6{
+    padding: 10px 12px;
+    background-color: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 30px;
+    cursor: pointer;
+    margin-top: 55px;
+    font-size: 1.5rem;
+    box-shadow: 6px 4px 5px black;
+    width: 6em;
+    
+}
+.down5{
+    width: 100%;
+    background-color: #E9E9E9;
+    padding: 12px !important;
+    text-align: center;
+}
+.last-footer{
+    width: 100%;
+    background-color: #0025ff;
+}
+.last-footer1{
+    padding : 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.last-footer2 button{
+    color: white;
+    border: 1px solid white;
+    padding: 12px 22px;
+    background-color: #0025ff;
+    border-radius: 30px;
+    margin-top: 10px;
+    text-align: center;
+
+}
+.spn i{
+    margin: 10px;
+    font-size: 28px;
+}
+.spn2 a{
+    color: white;
+    margin: 12px;
+}
+.navbar-toggler{
+    position: absolute;
+    right: 10px;
+    display: none;
+}
+@media only screen and (max-width: 990px) {
+        .pepsi-btn{
+            display: none;
+        }
+        
+    }
+
+    @media only screen and (max-width: 425px) {
+        
+        .main1{
+            width: 100%;
+        }
+        .head1{
+            font-size:48px ;
+            text-align: center;
+    }    
+    .head2{
+        font-size: 30px;
+
+    }
+    .main1-btn{
+        font-size: 28px;
+        width: 300px;
+        font-weight: 600;
+    }
+    .main3-con1 h1{
+        font-size:35px ;
+        text-align: center;
+    }
+    .main3-con2 h3{
+        font-size:28px ;
+        margin-top: 15px;
+    }
+    .main3-con3 h1{
+        font-size:40px ;
+        text-align: center;
+        margin-top: 8px;
+    }
+    .contant{
+        font-size: 12px;
+        text-align: center;
+    }
+    .main5{
+        display: flex;
+        flex-direction: column;
+    }
+    .main6 img{
+        width: 80%;
+    }
+    .main14 h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .main15{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .main15 img:hover{
+        cursor: pointer;
+        transform: rotate(5deg);
+        transition: 1s;
+        filter: blur(2px);
+    }
+    .footer2{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer2 a{
+        text-align: center;
+        font-size: 40px;
+        line-height: 1.5;
+    }
+    .footer2,.footer1{
+        background-color: black;
+    }
+    .cont1 h1{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .cont2 h2{
+        font-size: 28px;
+        word-spacing: 1px;
+        text-align: inherit;
+    }
+    .cont3 h3{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .banner2 h1{
+        font-size: 18px;
+        word-spacing: -3px;
+    }
+    .main-gallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    .hero4{
+        display: flex;
+        flex-direction: column;
+    }
+    .down2{
+        display: flex;
+        flex-direction: column;
+    }
+    .down3{
+        width: 100%;
+    }
+    .down4{
+        width: 100%;
+    }
+    .down3 h6{
+        width: 50%;
+    }
+    .down4 h6{
+        width: 40%;
+    }
+    .hero2{
+            display: block;
+    }
+    .last-footer1{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero2 ul{
+        display: none;
+        }
+        .navbar-toggler{
+            display: block;
+        }
+        .hero1 img{
+            width: 180px;
+        }
+}
+@media only screen and (min-width: 768px) and (max-width:1024px){
+
+    .footer2{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .footer2 a{
+        text-align: center;
+        font-size: 40px;
+        line-height: 1.5;
+    }
+    .footer2,.footer1{
+        background-color: black;
+    }
+    .main15{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .cont1 h1{
+        font-size:68px ;
+    }
+    .cont2 h2{
+        font-size: 35px;
+        word-spacing: 1px;
+        text-align: center;
+        font-weight: bolder;
+    }
+    .banner2 h1{
+        font-size: 30px;
+        word-spacing: -3px;
+    }
+    .main-gallery{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+}
+@media only screen and (max-width: 768px){
+    .navbar-toggler{
+        display: block;
+    }
+    .hero2 ul{
+        display: none;
+        }}
